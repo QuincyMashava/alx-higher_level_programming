@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print(",".join("{:02d}".format(i) for i in range(0, 100)))
+for r in range(0, 100):
+    if r < 99:
+        print("{:02d}".format(r), end=', ')
+    else:
+        print("{:02d}".format(r), end='\n')
