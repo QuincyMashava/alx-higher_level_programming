@@ -7,7 +7,7 @@ public area and perimeter methods, and prints shape using #'s
 
 
 class Rectangle:
-        """
+            """
     Defines class rectangle with private attribute width and height
     Args:
         width (int): width
