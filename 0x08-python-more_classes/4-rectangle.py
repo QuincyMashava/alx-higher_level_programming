@@ -71,3 +71,7 @@ class Rectangle:
             return ""
         shape = "\n".join(["#" * self.__width for rows in range(self.__height)])
         return shape
+
+     def __repr__(self):
+         """ String representation to recreate new instance """
+         return "Rectangle({:d}, {:d})".format(self.width, self.height)
