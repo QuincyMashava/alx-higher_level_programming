@@ -12,4 +12,4 @@ class MyList(list):
     """
     def print_sorted(self):
         """prints list of ints all sorted in ascending order as requested"""
-        print(sorted(self))
+        print(list.sort())
